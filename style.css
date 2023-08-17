@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(226, 43%, 10%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 30px;
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.leftcard {
+    /* border: 1px solid red; */
+    height: 80vh;
+    width: 20vw;
+}
+
+.topleftcard {
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    height: 52vh;
+    width: 20vw;
+    background: hsl(246, 80%, 60%);
+    position: relative;
+    top: 30px;
+}
+
+.topleftcard img {
+    border: 3px solid white;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.topleftcard h4 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: lighter;
+    color: white;
+}
+
+.topleftcard h2 {
+    margin-left: 30px;
+    font-size: 2.5em;
+    color: white;
+}
+
+.buttomleftcard {
+    /* border: 1px solid red; */
+    height: 29vh;
+    width: 20vw;
+    padding-top: 20px;
+    background: hsl(235, 46%, 20%);
+    border-radius: 20px;
+}
+
+.buttomleftcard ul {
+    list-style: none;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-left: 30px;
+    width: fit-content;
+}
+
+.buttomleftcard li {
+    margin-bottom: 24px;
+}
+
+.li1 {
+    color: hsl(235, 45%, 61%);
+}
+
+.li2 {
+    color: white;
+}
+
+.gridcontainer {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    margin-top: 35px;
+    height: 83vh;
+    width: 70vw;
+    gap: 30px;
+}
+
+.box {
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 35vh;
+}
+
+.box1 {
+    background-image: url(./images/icon-work.svg);
+    background-position: 150px -8px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-color: hsl(15, 100%, 70%);
+    
+}
+
+.box1 .subcontainer {
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    height: 27.5vh;
+    margin-top: 49px;
+    background: hsl(235, 46%, 20%);
+
+}
+
+.box2 {
+    background-image: url(./images/icon-play.svg);
+    background-position: 150px -8px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-color: hsl(195, 74%, 62%);
+}
+
+.box2 .subcontainer {
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    height: 27.5vh;
+    margin-top: 49px;
+    background: hsl(235, 46%, 20%);
+
+}
+
+.box3 {
+    background-image: url(./images/icon-study.svg);
+    background-position: 150px -8px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-color: hsl(348, 100%, 68%);
+}
+
+.box3 .subcontainer {
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    height: 27.5vh;
+    margin-top: 49px;
+    background: hsl(235, 46%, 20%);
+
+}
+
+.box4 {
+    background-image: url(./images/icon-exercise.svg);
+    background-position: 150px -8px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-color: hsl(145, 58%, 55%);
+}
+
+.box4 .subcontainer {
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    height: 27.5vh;
+    margin-top: 49px;
+    background: hsl(235, 46%, 20%);
+
+}
+
+.box5 {
+    background-image: url(./images/icon-social.svg);
+    background-position: 150px -8px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-color: hsl(264, 64%, 52%);
+}
+
+.box5 .subcontainer {
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    height: 27.5vh;
+    margin-top: 49px;
+    background: hsl(235, 46%, 20%);
+
+}
+
+.box6 {
+    background-image: url(./images/icon-self-care.svg);
+    background-position: 150px -8px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-color: hsl(43, 84%, 65%);
+}
+
+.box6 .subcontainer {
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    height: 27.5vh;
+    margin-top: 49px;
+    background: hsl(235, 46%, 20%);
+
+}
